@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="calculator-design">
+    <div class="calculator-grid">
+    <div class="display" id="display">0</div>
+    <div class="keys">
+    <table class="clearBar"> 
+      <tr>
+        <td class="clear" id="clearAll" onClick="clickBtn(this.id)"><<</td>
+        <td class="clear" id="clearOne" onClick="clickBtn(this.id)"><</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td class="num" id="1" onClick="clickBtn(this.id)">1</td>
+        <td class="num" id="2" onClick="clickBtn(this.id)">2</td>
+        <td class="num" id="3" onClick="clickBtn(this.id)">3</td>
+        <td class="op" id="add" onClick="clickBtn(this.id)">+</td>
+      </tr>
+      <tr>
+        <td class="num" id="4" onClick="clickBtn(this.id)">4</td>
+        <td class="num" id="5" onClick="clickBtn(this.id)">5</td>
+        <td class="num" id="6" onClick="clickBtn(this.id)">6</td>
+        <td class="op" id="subtract" onClick="clickBtn(this.id)">-</td>
+      </tr>
+      <tr>
+        <td class="num" id="7" onClick="clickBtn(this.id)">7</td>
+        <td class="num" id="8" onClick="clickBtn(this.id)">8</td>
+        <td class="num" id="9" onClick="clickBtn(this.id)">9</td>
+        <td class="op" id="multiply" onClick="clickBtn(this.id)">X</td>
+      </tr>
+      <tr>
+        <td class="decimal" id="." onClick="clickBtn(this.id)">.</td>
+        <td class="num" id="0" onClick="clickBtn(this.id)">0</td>
+        <td class="enter" id="enter" onClick="clickBtn(this.id)">ENTER</td>
+        <td class="op" id="divide" onClick="clickBtn(this.id)">/</td>
+      </tr>
+    </table>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
